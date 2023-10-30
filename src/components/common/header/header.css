@@ -1,0 +1,101 @@
+header {
+  
+  background-color: #38B6FF;
+  height: 9vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+header img {
+  width:100%;
+}
+header a {
+  margin-left: 50px;
+  transition: 0.5s;
+  font-weight: 700;
+  color: #f2f2f2;
+  text-align: center;
+
+}
+header a:hover {
+  color: #F12E90;
+  border-bottom: 3px solid #F12E90;
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #38B6FF;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+
+  @media screen and (max-width: 960px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 80px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav.active {
+      background: #1f5156;
+      left: 0px;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-item .active {
+      color: #ffdd40;
+      border: none;
+    }
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
+    }
+  /* header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 30px;
+  }
+  header .button {
+    display: none;
+  }
+
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  } */
+}

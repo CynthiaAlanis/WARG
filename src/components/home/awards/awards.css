@@ -1,0 +1,63 @@
+.videoTag{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  width: 100%;
+}
+.awards {
+  color: #fff;
+  text-align: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.awards .heading {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.awards .heading p {
+  color: #37BEB0;
+}
+.awards .heading h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+.awards .icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4% 50%;
+  font-size: 32px;
+  color: #ffffff;
+}
+.awards h1 {
+  font-size: 50px;
+}
+.awards p {
+  color: grey;
+}
+
+.video-container {
+  position: relative;
+}
+
+.videoTag {
+  width: 100%; /* Adjust as needed */
+}
+.text-Onvideo {
+  position: absolute;
+  top: 50%; /* Adjust to position the text vertically */
+  left: 50%; /* Adjust to position the text horizontally */
+  transform: translate(-50%, -50%); 
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+  color: white; /* Text color */
+  padding: 10px; /* Add padding as needed */
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 18px; /* Adjust text size */
+}
