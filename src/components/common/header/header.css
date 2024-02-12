@@ -69,33 +69,4 @@ header .toggle {
       width: 100%;
       display: table;
     }
-  /* header {
-    padding: 0;
   }
-  header img {
-    margin-top: 30px;
-  }
-  header .button {
-    display: none;
-  }
-
-  header .nav .flex {
-    display: none;
-  }
-  header .toggle {
-    display: block;
-    margin-top: 20px;
-  }
-  header .small {
-    position: absolute;
-    top: 20vh;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-  }
-  header li a {
-    display: inline-block;
-    margin-bottom: 20px;
-    color: #fff;
-  } */
-}
